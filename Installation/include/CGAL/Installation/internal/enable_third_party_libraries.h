@@ -31,7 +31,7 @@
 #    undef CGAL_USE_GMP
 #    undef CGAL_USE_MPFR
 #  elif CGAL_USE_MPFR && ! __has_include(<mpfr.h>)
-#    warning "<mpfr.h> cannot be found and the GMP support in CGAL requires it. Less efficient number types will be used instead. Define CGAL_NO_GMP=1 if that is on purpose."
+#    warning "<mpfr.h> cannot be found and the GMP support in CGAL requires it. Less efficient number types will be used instead. Define CGAL_NO_MPFR=1 if that is on purpose."
 #    undef CGAL_USE_GMP
 #    undef CGAL_USE_MPFR
 #  endif // CGAL_USE_MPFR and no <mpfr.h>
